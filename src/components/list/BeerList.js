@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import hbeer from "../../hbeer.png";
+import hbeer from "../../assets/image/hbeer.png";
 import React from "react";
 import Tooltip from "../tooltip/Tooltip";
 import { truncate } from "../../utils";

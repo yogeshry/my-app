@@ -1,4 +1,4 @@
-import hbeer from "../../hbeer.png";
+import hbeer from "../../assets/image/hbeer.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
