@@ -1,0 +1,30 @@
+.ProductCard {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 5px 5px 5px lightGray
+}
+
+.ProductCard:hover {
+    background-color: #DDF1FF;
+}
+
+.ImageWrapper {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.Image {
+    width: 30px;
+    height: 100px;
+}
+
+.Subtitle {
+    color: #F6BE00;
+}
+
+.LoadMore {
+    color: blue; 
+    padding: 20px
+}

@@ -1,0 +1,11 @@
+.Card {
+    width: 100px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+.Img {
+    width: 70px;
+    padding: 16px;
+}
+  

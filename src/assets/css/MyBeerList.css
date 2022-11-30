@@ -1,0 +1,17 @@
+.AddNewButton {
+    text-align: right;
+    margin-bottom: 16px
+}
+
+.EmptyPage {
+    align-items: center;
+            height: 70vh;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+}
+
+.Link {
+    color: blue; 
+    cursor: pointer;
+}
