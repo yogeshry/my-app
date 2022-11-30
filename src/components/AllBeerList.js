@@ -4,7 +4,7 @@ import axios from "axios";
 
 function AllBeerList() {
   const [allbeers, setAllbeers] = useState([]);
-  const [page, setPage] = useState(10);
+  const [page, setPage] = useState(1);
   const [isCompleted, setIsCompleted] = useState(false);
 
   const loadMore = () => {
@@ -16,7 +16,7 @@ function AllBeerList() {
       .get(`https://api.punkapi.com/v2/beers?page=${page}&per_page=10`)
       .then((res) => {
         res.data
-          ? setAllbeers([...allbeers, ...res.data])
+          ? setAllbeers(prevState => [...prevState, ...res.data])          
           : setIsCompleted(true);
       })
       .catch((err) => {
